@@ -11,7 +11,7 @@ namespace MNM_OOA_NumerosAleatorios
         private static SaveInDisc instance = new SaveInDisc();
         public List<int> numbers = new List<int>();
 
-        protected SaveInDisc()
+        private SaveInDisc()
         {
 
         }
